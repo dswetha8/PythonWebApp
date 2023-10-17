@@ -11,19 +11,19 @@ variables:
   azureServiceConnectionId: '336a91aa-1425-4c3f-925c-94f7126f59b0'
 
   # Web app name
-  webAppName: 'pythonapp18'
+  webAppName: 'pythonwebappdemo12'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'pythonapp18'
+  environmentName: 'pythonwebappdemo12'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
 
   # Python version: 3.7
-  pythonVersion: '3.7'
+  pythonVersion: '3.11'
 
 stages:
 - stage: Build
